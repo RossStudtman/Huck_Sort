@@ -54,13 +54,13 @@ Algorithms in Brief:
      * Number of iterations is decremented each iteration, hence turtle value increases with each iteration
 
 ###Scenario 2: demonstrated by HuckSort_V2
-*	Number of trips is hard coded. Determined by length of array in step four, below.
+*	Number of iterations is hard coded. Determined by length of array in step four, below.
 *	Turtle value determined by:
     1.	Obtain statistical mean of collection (as double)
     2.	Obtain standard deviation of collection (as double)
     3.	Divide mean by statistical deviation (coefficient of variation)
     4.	Take the following array of double values: 0.25, 0.50, 2.00, 2.25, 2.50 and divide each by Coefficient of Variation. 
-    5.	Turtle value calculated each trip by multiplying collection’s mean by the value found in the array of step 4.
+    5.	Turtle value calculated each iteration by multiplying collection’s mean by the value found in the array of step 4.
     *	mean * denominators[loopCounter]
 
 
